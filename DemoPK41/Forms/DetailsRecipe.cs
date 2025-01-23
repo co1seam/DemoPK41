@@ -1,11 +1,13 @@
-﻿namespace DemoPK41;
+﻿using DemoPK41.Models;
+
+namespace DemoPK41;
 
 public partial class DetailsRecipe : Form
 {
     public DetailsRecipe(Recipe recipe)
     {
-        this.Text = recipe.Name;
-        this.Size = new System.Drawing.Size(400, 400);
+        Text = recipe.Name;
+        Size = new Size(400, 400);
 
         var txtDetails = new RichTextBox
         {
@@ -16,6 +18,6 @@ public partial class DetailsRecipe : Form
                    $"Время приготовления: {recipe.CookingTime} мин"
         };
         
-        this.Controls.Add(txtDetails);
+        Controls.Add(txtDetails);
     }
 }

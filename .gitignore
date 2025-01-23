@@ -1,0 +1,9 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/DemoPK41/DesignTimeBuild
+/.vs/DemoPK41/FileContentIndex
+/.vs/DemoPK41/v17
+/.vs/ProjectEvaluation
+/.vs
