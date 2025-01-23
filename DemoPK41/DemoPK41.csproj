@@ -9,7 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Compile Update="DetailsRecipe.cs">
+      <Compile Update="Forms\DetailsRecipe.cs">
         <SubType>Form</SubType>
       </Compile>
     </ItemGroup>
@@ -17,6 +17,7 @@
     <ItemGroup>
       <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.1" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.1" />
       <PackageReference Include="SQLite" Version="3.13.0" />
     </ItemGroup>
 
